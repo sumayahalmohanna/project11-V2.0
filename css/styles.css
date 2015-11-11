@@ -1,0 +1,222 @@
+
+/* Layout Elements */
+
+.nav {
+	float: right;
+}
+
+.nav-pills {
+	padding-right: 15px;
+}
+
+.header {
+	padding-top: 50px;
+    padding-bottom: 35px;
+}
+
+.logo {
+	margin-left: 20px;
+}
+
+.footer {
+	padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.symbols {
+	padding-right: 15px;
+}
+
+.btn {
+	margin: 20px;
+}
+
+.top-bottom-space {
+	margin-top: 80px;
+	margin-bottom: 80px;
+	padding: 10px 0;
+}
+
+.featurette-heading {
+	margin-bottom: 25px;
+}
+
+.lead>li {
+	padding-bottom: 15px;
+}
+
+
+/* Background Color Controls */
+.grey {
+	background-color: #d9dadb;
+}
+
+.navy {
+	background-color: #252c36;
+}
+
+.orange {
+	background-color: #ff7632;
+}
+
+.yellow {
+	background-color: #e8b438;
+}
+
+.nav a {
+	color: #fff;
+}
+
+.nav-pills>li.active>a,
+.nav-pills>li.active>a:focus,
+.nav-pills>li.active>a:hover,
+.nav>li>a:hover {
+	color: #fff;
+	background-color: #FF7637;
+}
+
+.btn-primary,
+.btn-primary:focus,
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:active:hover,
+.btn-primary:visited {
+	background-color: #FF7637;
+	border-color: #FF7637;
+}
+
+.jumbo,
+.footer {
+	color: #fff;
+}
+
+body {
+	color: #252c36;
+}
+
+/* Text Controls */
+
+.oswald {
+	font-family: 'Oswald', sans-serif;
+	font-weight: 400;
+}
+
+.oswald-thin {
+	font-family: 'Oswald', sans-serif;
+	font-weight: 300;
+}
+
+.oswald-thick {
+	font-family: 'Oswald', sans-serif;
+	font-weight: 700;
+}
+
+.quattrocento {
+	font-family: 'Quattrocento', serif;
+}
+
+/* Home page font details */
+.list-header {
+	font-size: 23px;
+	margin-bottom: 10px;
+}
+
+.list-body {
+	font-size: 18px;
+	margin-bottom: 30px;
+}
+
+.h1-title-on-white {
+	color: #252c36;
+	font-size: 2.5em;
+}
+
+.h2-title-on-yellow {
+	font-size: 2.2em;
+}
+
+.thead-col-1,
+.thead-col-2 {
+	font-size: 28px;
+}
+
+.tbody-col-1,
+.tbody-col-2 {
+	font-size: 18px;
+}
+
+
+/* Border Controls */
+.bottom-border {
+	border-bottom: 1px solid #fff;
+	padding-bottom: 5px;
+}
+
+.bottom-border-yellow {
+	border-bottom: 1px solid #e8b438;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+
+.right-border {
+	border-right: 1px solid #e8b438;
+}
+
+
+/* Media Breaks */
+
+@media(max-width: 767px) {
+	.thead-col-2 {
+		font-weight: 700;
+	}
+
+	.tbody-col-1 {
+		font-size: 16px;
+	}
+
+	.tbody-col-2 {
+		font-size: 17px;
+		font-weight: bold;
+	}
+
+	.right-border {
+		border-right: 0px;
+	}
+}
+
+@media(max-width:450px) {
+	.logo {
+		margin-left: 0;
+	}
+
+	.nav-pills {
+		padding-left: 15px;
+	}
+
+	.lead {
+		padding-left: 10px;
+	}
+}
+
+@media(max-width:360px) {
+	.list-header {
+		font-size: 20px;
+	}
+
+	.list-body {
+		font-size: 16px;
+	}
+
+	.h1-title-on-white {
+		font-size: 2em;
+	}
+
+	.symbols {
+		width: 45px;
+		height: 45px;
+	}
+
+	.featurette-heading {
+		font-size: 26px;
+	}
+}
