@@ -49,6 +49,23 @@
 	margin: 15px 25px;
 }
 
+.width200 {
+	width: 200px;
+}
+
+.width250 {
+	width: 250px;
+}
+
+.width100 {
+	width: 150px;
+}
+
+.width100,
+.width200,
+.width250 {
+	margin-top: 20px;
+}
 
 /* Background Color Controls */
 .grey {
