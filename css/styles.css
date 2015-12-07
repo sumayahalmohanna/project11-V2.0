@@ -46,7 +46,7 @@
 }
 
 .lit-margin {
-	margin: 15px 25px;
+	margin: 15px 0;
 }
 
 .width200 {
@@ -65,6 +65,17 @@
 .width200,
 .width250 {
 	margin-top: 20px;
+}
+
+.glyphicon {
+	color: #e8b438;
+	margin-right: 10px;
+	font-size: 1.3em;
+}
+
+.reading {
+	width: 225px;
+	border: 2.5px solid #e8b438;
 }
 
 /* Background Color Controls */
@@ -113,6 +124,19 @@
 
 body {
 	color: #252c36;
+}
+
+.call-btn,
+.call-btn:hover,
+.call-btn:visited,
+.call-btn:active,
+.call-btn:focus {
+	color: #252c36;
+	text-decoration: none;
+}
+
+hr {
+	border-top: solid 1px #e8b438;
 }
 
 /* Text Controls */
@@ -240,6 +264,17 @@ body {
 
 	.body-text {
 		font-size: 14px;
+	}
+
+	.call-btn,
+	.call-btn:active,
+	.call-btn:focus {
+		color: #286090;
+	}
+
+	.call-btn:hover,
+	.call-btn:visited {
+		color: #204d74;
 	}
 }
 

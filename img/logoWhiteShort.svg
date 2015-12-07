@@ -10,7 +10,7 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="300"
+   width="332"
    height="82"
    id="svg2"
    version="1.1"
@@ -26,8 +26,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.9434783"
-     inkscape:cx="156.4154"
-     inkscape:cy="34.009919"
+     inkscape:cx="134.96783"
+     inkscape:cy="-4.0424072"
      inkscape:document-units="px"
      inkscape:current-layer="layer2"
      showgrid="false"
@@ -184,23 +184,21 @@
      id="layer3"
      inkscape:label="backdrop"
      style="opacity:0.8317308;display:none"
-     transform="translate(0,50)"
-     sodipodi:insensitive="true">
+     transform="translate(0,50)">
     <rect
-       style="fill:#101012;fill-opacity:1;stroke:#ffffff;stroke-width:0.31305027;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       style="fill:#101012;fill-opacity:1;stroke:#ffffff;stroke-width:0.33830333;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
        id="rect3826"
-       width="342.81351"
-       height="156.45943"
-       x="-21.310057"
-       y="-108.83705" />
+       width="400.4169"
+       height="156.43417"
+       x="-21.29743"
+       y="-108.82442" />
   </g>
   <g
      inkscape:groupmode="layer"
      id="layer2"
      inkscape:label="new logo"
      transform="translate(0,-118)"
-     style="display:inline"
-     sodipodi:insensitive="true">
+     style="display:inline">
     <g
        inkscape:label="old logo"
        id="layer1-8"
@@ -240,7 +238,7 @@
     </g>
     <g
        style="fill:#ffffff;stroke:none"
-       transform="matrix(1.3006709,0,0,1.3006709,-12.372621,-6.3968958)"
+       transform="matrix(1.4512327,0,0,2.1079414,-14.040226,-86.107524)"
        id="g4629-2">
       <g
          id="g4220-7"
