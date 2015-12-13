@@ -49,24 +49,6 @@
 	margin: 15px 0;
 }
 
-.width200 {
-	width: 200px;
-}
-
-.width250 {
-	width: 250px;
-}
-
-.width100 {
-	width: 150px;
-}
-
-.width100,
-.width200,
-.width250 {
-	margin-top: 20px;
-}
-
 .glyphicon {
 	color: #e8b438;
 	margin-right: 10px;
