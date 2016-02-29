@@ -60,6 +60,37 @@
 	border: 2.5px solid #e8b438;
 }
 
+.top {
+	background: rgb(255, 118, 55);
+	display: inline-block;
+	height: 50px;
+	width: 50px;
+	position: fixed;
+	bottom: 100px;
+	right: 10px;
+	z-index: 10;
+	visibility: hidden;
+	opacity: 0;
+	padding: 10px 16px 10px 14px;
+	-webkit-transition: opacity .3s 0s, visibility 0s .3s;
+	-moz-transition: opacity .3s 0s, visibility 0s .3s;
+	transition: opacity .3s 0s, visibility 0s .3s;
+}
+
+.top.top-is-visible {
+	visibility: visible;
+	opacity: 1;
+}
+
+.top.top-fade-out {
+	opacity: .8;
+}
+
+.top span {
+	color: #fff;
+}
+
+
 /* Background Color Controls */
 .grey {
 	background-color: #d9dadb;
